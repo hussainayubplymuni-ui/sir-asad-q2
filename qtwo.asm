@@ -1,4 +1,3 @@
-; QUESTION 2
 section .data
     numbers dd 8, 16, 24, 32
 
@@ -9,8 +8,8 @@ _main:
     ; Load the second array value (16)
     mov eax, [rel numbers + 4]
 
-    ; Multiply the value by 3 (intentional mistake)
-    mov ebx, 3
+    ; Multiply the value by 4
+    mov ebx, 4
     mul ebx
 
     ; Clear EDX before division
