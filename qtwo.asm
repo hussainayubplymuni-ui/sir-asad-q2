@@ -1,3 +1,9 @@
+HUSSAIN AYUB 
+
+
+QUESTION 2:
+
+
 section .data
     numbers dd 8, 16, 24, 32
 
@@ -26,6 +32,7 @@ _main:
     mov edi, eax
     mov eax, 0x2000001
     syscall
+QUESTION 3
 ;QUESTION 3:
 
 
